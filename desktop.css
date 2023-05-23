@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* body{
+    overflow: hidden;
+} */
+section{
+    height: 100vh;
+    width: 85vw;
+    margin: auto;
+}
+header{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+header .head_logo{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+}
+
+header .head_logo ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    font-size: 13px;
+}
+header .head_logo ul li{
+    list-style: none;
+    padding: 12px;
+    cursor: pointer;
+}
+header .head_profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.head_profile .cart{
+    margin-right: 29px;
+}
+header .head_profile .avatar{
+    height: 40px;
+}
+main{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.pics{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product_main{
+    width: 30vw;
+    border-radius: 12px;
+}
+.pics_horizontal img{
+    width: 6vw;
+    border-radius: 12px;
+    margin: 20px .7em;
+}
+
+.pics_horizontal img:hover{
+    opacity: .7;
+    outline: 3px solid rgb(236, 84, 84);
+   
+}
+
+
+.content{
+    width: 50%;
+
+}
+.sneaker{
+    color: rgb(236,151, 84);
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.content h1{
+    font-size: 2.2rem;
+    width: 85%;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.paragraph{
+    width: 85%;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+.content h2{
+    font-size: 1.4rem;
+}
+.content h3{
+    text-decoration: line-through;
+    font-size: 13px;
+    margin-top: 9px;
+    color: rgb(139, 133, 133);
+}
+.btn{
+    display: flex;
+    margin-top: 30px;
+ 
+}
+.btn .btn_2{
+    display: flex;
+   background-color: rgba(176, 176, 176, 0.276);
+   border-radius: 3px;
+    padding: 7px 10px;
+    align-items: center;
+}
+.btn_2 p{
+    margin: 0px 12px;
+}
+.btn_2 :first-child{
+    color: rgb(236,151, 84);
+  font-weight: 900;
+}
+.btn_2 :last-child{
+    color: rgb(236,151, 84);
+    font-weight: 900;
+  
+}
+.btn a{
+    background-color: rgb(236, 118, 54);
+    text-decoration: none;
+    color: white;
+    padding-top: 4px;
+    padding: 10px 50px;
+    font-size: 15px;
+    margin-left: 15px;
+    border-radius: 7px;
+    box-shadow: 8px 7px 9px 2px rgba(128, 128, 128, 0.258);
+}
+.menu{
+    position: absolute;
+    visibility: hidden;
+}
+input{
+    position: absolute;
+    visibility: hidden;
+}
+label{
+    visibility: hidden;
+}
